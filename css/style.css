@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gato {
+    position: absolute;
+    top: 23%;
+    right: 36%;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    margin: auto;
+}
+
+.stickman {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10%;
+    margin: auto;
+}
+
+p {
+    font: normal 30pt Arial;
+    text-align: center;
+}
