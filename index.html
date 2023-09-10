@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="/images/black_cat_icon_177458.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/black_cat_icon_177458.png" type="image/x-icon">
     <title>Gatito</title>
 </head>
 <body>
     <img class="gato" src="images/gato-cute.png" alt="gato" width="200" onmouseenter="carinho()" onmouseout="carinho()">
-    <img class="stickman" src="/images/stickman.png" alt="Homem palito" height="600" width="auto">
+    <img class="stickman" src="images/stickman.png" alt="Homem palito" height="600" width="auto">
     <p>Não ouse a tocar no gato!</p>
     <script>
         // Posicionar as duas imagens onde exatamente quero
@@ -17,8 +17,8 @@
         // a funcao deve manter o gato e apenas trocar a imagem do stickman
         // a imagem nova deve cobrir a quase a tela do com execessão do gato para o usuario conseguir tirar o mouse de cima
         // criar uma função para voltar a primeira imagem do stickman ao tirar o mouse de cima do gato
-        var stickmanCute = '/images/stickman.png'
-        var stickmanAngry = '/images/angrystickman1.png'
+        var stickmanCute = 'images/stickman.png'
+        var stickmanAngry = 'images/angrystickman1.png'
 
         function carinho() {
             window.document.querySelector('img.stickman').src = stickmanAngry
